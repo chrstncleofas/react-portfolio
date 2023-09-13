@@ -2,7 +2,7 @@
 import React from "react";
 import "./App.css";
 
-const GameDev = () => {
+const Other = () => {
   return (
     <div class="skills__content skills__close">
     <div class="skills__header">
@@ -55,4 +55,4 @@ const GameDev = () => {
   );
 };
 
-export default GameDev;
+export default Other;

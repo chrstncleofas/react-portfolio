@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './Navbar';
 import Profile from './Profile';
 import Skills from './Skills';
+import Experience from './Experience';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Profile />
       <Skills />
+      <Experience />
     </div>
   );
 }
