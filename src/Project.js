@@ -23,8 +23,7 @@ const Project = () => {
             clickable: true,
         },
         });
-        swiper.slideNext();
-        swiper.slidePrev();
+        swiper.slideToLoop()
     }, []);
 
   return (
